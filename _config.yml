@@ -1,1 +1,43 @@
 theme: jekyll-theme-cayman
+
+<style>
+		
+		
+
+		.con ul {
+			padding: 0px;
+			margin: 0px;
+
+		}
+
+		.con ul li{
+			list-style: none;float: left;
+			width: 25%;
+			height: 300px;
+			background: red;
+			margin: 40px 40px 0px 55px;
+			box-sizing: border-box;
+			border: 2px solid black;
+		}
+
+	
+		
+		.con ul li .tit {
+			width: 40%;
+			height: 50px;
+			line-height: 50px;
+			background-color: white;
+			text-align: center;
+			align-content: center;
+		}
+		@media screen and (max-width: 1250px){
+			.con ul li {
+				width: 40%;
+				margin-left: 40px;
+			}
+		}
+
+
+
+	</style>
+	
